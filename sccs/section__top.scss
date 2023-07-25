@@ -1,0 +1,28 @@
+.section__top {
+    padding: 30px 0;
+    background-color: rgba(238, 238, 238, 1);
+}
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(71, 71, 71, 1);
+}
+.removeAll {
+    padding: 8px 50px;
+    border: none;
+    background-color: rgba(208, 218, 215, 1);
+    font-family: 'Montserrat', "sans-serif";
+    font-weight: 600;
+    font-size: 20px;
+    color:rgba(116, 133, 124, 1);
+    border-radius: 21px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.removeAll:hover {
+    background-color: rgb(185, 199, 196);
+}
+.removeAll:active {
+    background-color: rgb(158, 171, 168);
+
+}

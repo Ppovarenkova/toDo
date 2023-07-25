@@ -1,0 +1,57 @@
+.section__bottom {
+    background-color: rgba(238, 238, 238, 1);
+}
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(71, 71, 71, 1);
+}
+.column {
+    background-color: rgba(226, 229, 228, 1);
+    width: 370px;
+    min-height: 100vh;
+    max-height: fit-content;
+    padding: 30px 20px 20px;
+    border-radius: 32px;
+}
+.CardsWrapper {
+    width: 330px;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.total {
+    background-color: rgba(208, 218, 215, 1);
+    padding: 7px 10px;
+    border-radius: 10px;
+    color:rgba(116, 133, 124, 1);
+}
+  
+.CreateCard {
+    width: 150px;
+    height: 150px;
+    border: 0;
+    background-color: rgb(185, 199, 196);
+    font-weight: 500;
+    z-index: 4;
+    font-size: 50px;
+    color:rgba(116, 133, 124, 1);
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5%;
+    right: 1%;
+    display: block;
+    transition: 0.3s;
+
+}
+.CreateCard:hover {
+    background-color: rgb(149, 164, 161);
+}
+.CreateCard:active {
+    background-color: rgb(158, 171, 168);
+
+}

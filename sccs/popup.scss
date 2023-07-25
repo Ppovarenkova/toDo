@@ -1,0 +1,122 @@
+.CreateTaskPopup{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(102, 113, 107, 0.71); 
+    top: 0;
+    left: 0;
+    z-index: 6;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.CreateTaskPopup.active {
+    opacity: 1;
+    visibility: visible;
+}
+.CreateTaskPopup.active .CreateTaskPopup__content {
+    transform: perspective(600px);translate: 0px, 0%; 
+}
+.CreateTaskPopup__body {
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 30px 10px;
+    
+}
+.CreateTaskPopup__content {
+    background-color: rgba(238, 238, 238, 1);
+    max-width: 1020px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.CreateTaskPopup__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.CreateTaskPopup__title {
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 25px;
+}
+.CreateTaskPopup__close {
+    border-radius: 10px;
+    background-color: rgba(208, 218, 215, 1);
+    color:rgba(116, 133, 124, 1);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.CreateTaskPopup__close:hover {
+    background-color: rgb(185, 199, 196);
+}
+.taskName {
+    background-color: rgba(226, 229, 228, 1);
+    border: none;
+    padding:15px 10px;
+    width: 675px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.taskDescription {
+    background-color: rgba(226, 229, 228, 1);
+    border: none;
+    padding:15px 10px 50px ;
+    width: 675px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.taskPerson {
+    background-color: rgba(226, 229, 228, 1);
+    border: none;
+    padding:15px 10px;
+    width: 675px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.taskDeadline {
+    background-color: rgba(226, 229, 228, 1);
+    border: none;
+    padding:15px 10px;
+    width: 675px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    outline: none;
+}
+.CreateTaskPopup__btn {
+    background-color:rgba(208, 218, 215, 1);
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color:rgba(116, 133, 124, 1);
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+}
+.CreateTaskPopup__btn:hover {
+    background-color: rgb(185, 199, 196);
+}
+.CreateTaskPopup__btn:active {
+    background-color: rgb(158, 171, 168);
+}

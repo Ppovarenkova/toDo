@@ -1,0 +1,23 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jshint": "^2.13.5",
+    "parcel": "^2.7.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "prettier": "2.7.1"
+  }
+}

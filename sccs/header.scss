@@ -1,0 +1,28 @@
+.header__container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+    z-index: 2;
+    position: relative;
+    // display: flex;
+    // justify-content:  space-between;
+}
+.header {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 25px 0;
+}
+.logo {
+    font-family: 'Montserrat', "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 40px;
+    width: 250px;
+    display: inline;
+    color: rgba(71, 71, 71, 1);
+}
+span {
+    color: rgba(71, 71, 71, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
